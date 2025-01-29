@@ -6,6 +6,7 @@ module.exports = {
         colors: {
             clifford: '#da373d',
             'btn-bg': '#B68C5A',
+            'gradient-1': "rgba(17, 17, 17, 0.8)",
         },
         fontFamily: {
             'font-Poppins': ["Poppins", "serif"],
