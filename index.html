@@ -4,8 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>legal-solution</title>
-        <link rel="shortcut icon" href="images/business.png"
-            type="image/x-icon">
+        <link rel="shortcut icon" href="images/business.png" type="image/x-icon">
+        
+
+        <!-- font aweome -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
         <!-- font family setup -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,6 +38,7 @@
                     clifford: '#da373d',
                     'btn-bg': '#B68C5A',
                     'gradient-1': "rgba(17, 17, 17, 0.8)",
+                    'footer-color': 'rgb(17, 17, 17)',
                   },
                   fontFamily: {
                     'font-Poppins': ["Poppins", "serif"],
@@ -45,11 +49,11 @@
             }
         </script>
     </head>
-    <body>
+    <body class="lg:space-y-28 space-y-14">
 
         <!-- header section start -->
         <header
-            class="w-11/12 mx-auto lg:space-y-16 space-y-8 pt-5 lg:mb-28 mb-14">
+            class="w-11/12 mx-auto lg:space-y-16 space-y-8 pt-5">
             <nav>
                 <div class="navbar font-font-Poppins">
                     <div class="navbar-start">
@@ -207,7 +211,6 @@
 
         </header>
         <!-- header section end -->
-
 
         <!-- main section start -->
         <main class="w-11/12 mx-auto">
@@ -782,7 +785,77 @@
         </main>
         <!-- main section end -->
 
-        <footer>
+        <footer class="bg-footer-color w-full">
+
+            <!-- footer content -->
+
+            <div class="w-11/12 mx-auto lg:py-20 md:py-10 py-5">
+                <div class="grid lg:grid-cols-4 gap-5 lg:mr-4 md:grid-cols-2 grid-cols-1">
+                    <!-- justice section -->
+                    <div class="space-y-8">
+                        <img src="images/logo.png" alt>
+                        <p class="text-gray-500 font-font-Poppins">There are
+                            many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour.</p>
+                    </div>
+
+                    <!-- link section -->
+                    <div class="space-y-10">
+                        <h1 class="text-white text-3xl font-font-EB">Useful Links</h1>
+                        <div class="flex flex-col space-y-2 text-gray-500 font-font-Poppins">
+                            <a href="#">Home</a>
+                            <a href="#">Abou Us</a>
+                            <a href="#">Cases</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Contact Us</a>  
+                        </div>
+                        
+                    </div>
+
+                    <!-- contact section -->
+                    <div class="space-y-10">
+                        <h1 class="text-white text-3xl font-font-EB">Contact Now</h1>
+                        <div class="space-y-2 text-gray-500 font-font-Poppins">
+                            <div>
+                                <p>555 4th 5t NW, Washington</p>
+                                <p>DC 20530, United States</p>
+                            </div>
+                            <div>
+                                <p>+88 01750 000 000</p>
+                                <p>+88 01750 000 000</p>
+                            </div>
+    
+                            <div>
+                                <p>info@gmail.com</p>
+                                <p>info@gmail.com</p>
+                            </div>
+    
+                        </div>
+                        
+                    </div>
+
+                    <!-- subscribe section -->
+                    <div class="space-y-5">
+                        <h1 class="text-white text-3xl font-font-EB">Subscribe</h1>
+                        <p class="text-gray-500 font-font-Poppins">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+
+                        
+                        <!-- <label class="input flex items-center gap-2">
+
+                            <input type="email" class="grow" placeholder="Search" />
+                            <span class="bg-btn-bg p-2"><box-icon name='paper-plane' color="white"></box-icon></span>
+                        </label> -->
+
+                        <div class="flex items-center rounded-lg overflow-hidden text-gray-600 w-11/12">
+                            <input type="email" placeholder="Email Address" class="flex-1 border-none outline-none p-4 text-sm">
+
+                            <button class="bg-btn-bg border-none outline-none p-4 flex items-center justify-center cursor-pointer rounded-sm"><box-icon name='paper-plane' color="white"></box-icon></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </footer>
 
